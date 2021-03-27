@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--[if lte IE 9]>
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="Fri, 01 Jan 1999 1:00:00 GMT" />
+      <meta http-equiv="Last-Modified" content="0" />
+      <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+    <![endif]-->
+    <!-- ssr-head -->
+  </head>
+
+  <body>
+    <div id="app">
+      <!-- ssr-body -->
+    </div>
+    <script type="module" src="./main.ts"></script>
+
+    <!-- ssr-footer -->
+
+    <!--[if lte IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" ></script>
+      <script src="flexibility.js" integrity="sha512-RShXKLsEuWDEo16rDAnxSEE3ZsCb9fH6/khyQqoFN3h6fybkaIb4EW5DTqQNNkCG7SsWGPtiU8dppBdFxeC/gw==" crossorigin="anonymous"></script>
+      <script>
+        flexibility(document.documentElement);
+      </script>
+    <![endif]-->
+
+  </body>
+</html>

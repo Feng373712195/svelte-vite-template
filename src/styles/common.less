@@ -1,0 +1,30 @@
+@import './utils.less';
+
+body.fix {
+  overflow: hidden;
+}
+
+.content() {
+  .padding-x(20px);
+  .mobile({
+    .padding-x(4vw);
+  });
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.mobile-content() {
+  .padding-x(4vw);
+  margin: 0 auto;
+  max-width: none;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.mobile({
+  .mobile-only {
+    display: block;
+  }
+});

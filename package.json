@@ -1,0 +1,32 @@
+{
+  "name": "gnlab",
+  "version": "1.0.0",
+  "description": " ",
+  "author": " ",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vite build --ssr && node scripts/generate.js && gulp",
+    "serve": "vite preview",
+    "generate": "node scripts/generate.js",
+    "create-page": "node scripts/create.js"
+  },
+  "devDependencies": {
+    "@babel/standalone": "7.13.9",
+    "@svitejs/vite-plugin-svelte": "^0.11.1",
+    "@vitejs/plugin-legacy": "^1.3.1",
+    "autoprefixer": "^10.2.5",
+    "fast-glob": "^3.2.5",
+    "less": "^4.1.1",
+    "postcss": "^8.2.8",
+    "postcss-flexibility": "^2.0.0",
+    "rimraf": "^3.0.2",
+    "svelte": "^3.35.0",
+    "svelte-preprocess": "^4.6.9",
+    "typescript": "^4.2.3",
+    "vite": "^2.1.0",
+    "vite-plugin-mpa": "^0.3.1",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1"
+  }
+}
