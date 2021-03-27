@@ -1,10 +1,10 @@
 # svelte-vite-template
 
-##  开发基于环境
+###  开发基于环境
 Git、 Node.Js (v14 以上)、Yarn、Visual Studio Code编辑器
 
 
-##  项目技术栈
+###  项目技术栈
  
 | 框架类型 | 框架名称 |  文档地址 |
 | ------------ | ------------- |------------- |
@@ -15,9 +15,9 @@ Git、 Node.Js (v14 以上)、Yarn、Visual Studio Code编辑器
 | 前端自动化工具 | Gulp  | https://gulpjs.com/ |
 
 
-## 项目目录结构
+### 项目目录结构
 
-### 根目录结构
+#### 根目录结构
 
     |-- assets           # 静态资源文件
     |-- dist             # 编译后之后生产的文件夹
@@ -38,7 +38,7 @@ Git、 Node.Js (v14 以上)、Yarn、Visual Studio Code编辑器
     |-- vite.config.js   # vite 配置文件
 
 
-### Page目录结构
+#### Page目录结构
     |-- components       # 页面组件
     |-- lib              # 页面库代码
     |-- App.svelte       # 根组件
@@ -47,7 +47,7 @@ Git、 Node.Js (v14 以上)、Yarn、Visual Studio Code编辑器
 
 
 
-## 如何进行开发
+### 如何进行开发
     // 把项目拉取到本地
     git clone git@github.com:Feng373712195/svelte-vite-template.git
 
@@ -70,7 +70,7 @@ Git、 Node.Js (v14 以上)、Yarn、Visual Studio Code编辑器
     yarn dev
 
 
-## Build过程
+### Build过程
 
 当项目目录打开终端输入 yarn build 会开始编译打包生产环境代码，下面解释具体过程，这个过程主要为了对页面进行SSG(Static Site Generation)
 - 第一步 vite build 是为了得到编译后的页面和所需资源，会导出到dist文件夹
@@ -81,7 +81,7 @@ Git、 Node.Js (v14 以上)、Yarn、Visual Studio Code编辑器
 - 使用 yarn serve可对编译后的结果进行预览
 
 
-## 如何设置每个页面中不同的tItle标签
+### 如何设置每个页面中不同的tItle标签
 
 使用Svelte写法，在每个页面中的App.svelte中进行设置
 
@@ -92,7 +92,7 @@ Git、 Node.Js (v14 以上)、Yarn、Visual Studio Code编辑器
 ```
 
 
-## 其他注意事项
+### 其他注意事项
 - 兼容IE版本中9以上的浏览器
 - 开发者无需担心Flexbox在IE中不支持问题，已经使用 flexibility.js 进行处理
 - 开发者在 src/pages 新增页面打包时无需重新修改配置 ，配置文件中会自动处理
