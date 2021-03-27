@@ -19,7 +19,6 @@ async function generate(){
 		// ssr生产对应renderJs 找不到对应页面
 		const pageName = path.basename(rpath).replace('.js','');
 		const isExists = await existsSync(path.join(process.cwd(),`/src/pages/${pageName}`))
-		console.log( pageName , 'pageName' , isExists , 'isExists' )
 		if(!isExists) {
 			return null
 		}
