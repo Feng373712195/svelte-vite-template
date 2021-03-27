@@ -82,10 +82,14 @@ Git、 Node.Js (v14 以上)、Yarn、Visual Studio Code编辑器
 
 
 ## 如何设置每个页面中不同的tItle标签
+
 使用Svelte写法，在每个页面中的App.svelte中进行设置
-<svelte:head>
-  <title>光年浏览超市</title>
-</svelte:head>
+
+```js
+    <svelte:head>
+      <title>光年浏览超市</title>
+    </svelte:head>
+```
 
 
 ## 其他注意事项
